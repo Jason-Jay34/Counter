@@ -21,5 +21,16 @@ btns.forEach(function (btn){
 
     //Update the value on Screen
     value.textContent = count;
+
+
+    //Change Color
+if (count > 0){
+    value.style.color="green";
+}else if (count < 0){
+    value.style.color="red";
+}else{
+    value.style.color="black";
+}
     });
 });
+
